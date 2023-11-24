@@ -19,3 +19,4 @@ npm run build
 ```
 
 // https://vue-school-router-4-course.netlify.app/
+// https://router.vuejs.org/guide/essentials/history-mode.html#different-history-modes
