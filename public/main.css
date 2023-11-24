@@ -76,6 +76,7 @@ a:visited {
 #nav a.router-link-active,
 #nav a:hover {
   opacity: 1;
+  border-bottom: 2px solid;
 }
 #logo {
   font-weight: bold;
@@ -93,8 +94,20 @@ a {
   display: flex;
   gap: 30px;
   align-items: center;
+  flex-direction: column;
+  max-width: 70%;
+  margin: auto;
 }
-.destination-details img {
+
+.destination-details .destination-detail-name h2{
+  text-align: start;
+}
+.destination-details-content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.destination-details-content img {
   border-radius: 4px;
   border: 3px solid white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
