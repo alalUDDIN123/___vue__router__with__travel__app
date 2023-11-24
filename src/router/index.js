@@ -5,6 +5,7 @@ import Hawaii from '../views/Hawaii.vue'
 import HomeView from '../views/Home.vue'
 import Jamaica from '../views/Jamaica.vue'
 import Panama from '../views/Panama.vue'
+import destinationShow from '../views/destinationShow.vue'
 
 
 const router = createRouter({
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/panama',
       name: 'panama',
       component: Panama
+    },
+    {
+      path: '/destination/:id',
+      name: 'destination-details',
+      component: destinationShow
     },
   ]
 })
