@@ -20,9 +20,8 @@ a:visited {
   color: #2c3e50;
 }
 .container {
-  width: 90%;
   margin: 0 auto;
-  margin-top: -40%;
+  text-align: center;
 }
 
 /* Home */
@@ -30,10 +29,11 @@ a:visited {
   text-align: center;
 }
 .home .destinations {
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  margin: auto;
 }
 
 .destination {
