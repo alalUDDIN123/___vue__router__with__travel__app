@@ -7,6 +7,7 @@
       <h2>{{ destination.name }} </h2>
     </router-link>
 
+    <router-link to="/user">Dashboard</router-link>
   </div>
 </template>
 <script>
