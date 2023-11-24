@@ -7,6 +7,9 @@
     <router-link to="/hawaii">Hawaii</router-link>
     <router-link to="/jamaica">Jamaica</router-link>
     <router-link to="/panama">Panama</router-link>
+    <router-link to="/dashboard">Dashboard</router-link>
+    <router-link to="/login">Login</router-link>
+
 
   </div>
 
